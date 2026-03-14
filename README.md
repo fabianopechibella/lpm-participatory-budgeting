@@ -161,7 +161,7 @@ firebase init hosting
 firebase deploy --only hosting
 ```
 
-O Firebase fornecerá uma URL pública no formato `[https://lpm-budget-sai.web.app](https://lpm-participatory-budgeting.web.app/)`.
+O Firebase fornecerá uma URL pública no formato `https://lpm-budget-sai.web.app`.
 Compartilhe essa URL com os participantes.
 
 ---
