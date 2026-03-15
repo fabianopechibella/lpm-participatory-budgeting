@@ -1,29 +1,13 @@
 {
-  "hosting": {
-    "public": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**",
-      "*.zip",
-      "README.md"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/lpm-budget.html"
-      }
-    ],
-    "headers": [
-      {
-        "source": "**/*.@(js|html|css)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=3600"
-          }
-        ]
-      }
-    ]
-  }
+  "type": "service_account",
+  "project_id": "lpm-participatory-budgeting",
+  "private_key_id": "1c2513ac206dd67bf04517ded63604cd92901d95",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDc07mKKX4GYH7p\n/TFUhBbCEZxV3OnoLPLVXeTYWK3pozvF4v49+7f63gAIMHVBy3EBRjkkHlyd5Lf3\ncXHTJIZyLS3cmwC3h2mtVoiec3En/5KJWxkBkmks2E0XgVoEW+mm3a5r6kAyWD5m\nSdyMwJTBrfW7cwpfXxDCo9CwGlymoXp7aNsCXEj7ZvT5URydtFJCI+Aoh2/IWrtH\nZ2Y9qTsJxgW4GeukXT7Z1u18EViL2rhZPFjjG5dNT6emQXNjoYrqj4mOIwlFAc9k\nZdwx1xGgs7+Y9aapkF3MQNWGyo3Z+UUIbUGm8scBK9V6JZsfn6qhOhtgmUBgNw5A\nsNQiACpBAgMBAAECggEABz1HrWBb2dCrCHe8+MTVzCnwop356xsiIN2RpYgOt4Sa\n7otZA2Yvq2FAxgP0rCIDw+Nt9yGprqFzaIDHFwFxCOgzQzKvrNSbIcwe8XbeZE3M\nG4WphbQrj4VNzbH3ZgIvYEGPOMl2rk/XR9ovCUw89DaEQk9srSC8N21QZ52NoQbF\nmZe7uoTRIuPByw1VcF2DeNiZC8VWvSSSm3rv9NYI1Bq1IHdfm6uXELgk8qGPa0om\nNI7TQ74Yk5Sfrt2DxgaZaLAiiWdhnv24cM23RXDOH77wETIZZALNMUl9bdwFeeLS\nFnRpXF5UNFUqfQswz6ZnFCBbqEBFV0nyR5tOjMQkUwKBgQDzlzK5kT/kl9+dH0Pn\nTbXH14sbMqQXnfyp8pL1NvkxnIXMJrGU06STIs+wA1VawCAIH1VP17Jmfd7ZfrUc\ni1A1iiYFyAVkU2T+XGsQyGoPhZNjiwljmf242pJtcYPeSmPRBOvtenFAtK1EU1Vq\nfAfFR1tDmahISAuzcOlSWRyLLwKBgQDoE6d3YW/XG8B0h+Frrpt8A/9utZ5pzWQd\nXAiE1R8CFRLM0f0Id5JGhGxDCfsTraKPfnipTBFlg7HzVNzAOxxReEwOpFiAvIyA\nLt1Lmgf1eDyuQQUJFG9pDyZeJttof0i4yqtaKF9g7NR/X3L4W7f6+U36jofsxIyi\niQ1AmXGFjwKBgQCR+afyQLMTYFgnJpdgw9cN3YOFVwGzDYBer/mVbc5EBtK/luiQ\nkYxsiE4B4t2BtuT7ORu87zv/46pqmF4crvfwPcuvZ0Cj8L3zGJsowZGdn6TF4IpN\n3/iGkKVzZLVrvxS2K8be16OK7TtwWKg1WgKmHK76gdixCEvKyv1n1fMfDQKBgEbv\nuwCCh+z4TptP7Vc8x8ngbvMoEIPGhBN1TiVL/25jgpuYk/9CjTOAxpa3NkeNi2LR\nBZC575dX6cy248LeTomYe6b+FQ9Ekq2bpYi2TDh7yBB7T063MFasis28ktQeE9xo\nFng4Xu8BdPJ5+mpvnozYJz2u011LtrD3s1VLkaeBAoGAQTmy3J7gCyqTvS8+tKFs\nncPzu89qSSMbZWbCIjFfFDYTvQTsle3NVf5s43FESA8FLWbW6tMkC8vOvCwI7QsD\nn3aDZ6+bbbrUybFwHam5mS9QDtX0/CFVvXtLHFPS017lnYdMNzSPODqtIbkOmA4z\nsjPHPQcffJUeuNPHkLQWrsA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@lpm-participatory-budgeting.iam.gserviceaccount.com",
+  "client_id": "106499882030129107172",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40lpm-participatory-budgeting.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
 }
